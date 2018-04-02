@@ -20,11 +20,4 @@ Spaceship.defaultProps = {
   colors: ['black', 'red']
 };
 
-// ReactDOM.render(
-//   <Spaceship
-//     name="Millennium Falcon"
-//   />,
-//   document.getElementById('root')
-// )
-
 export default Spaceship;
