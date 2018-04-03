@@ -7,10 +7,8 @@ class Spaceship extends React.Component {
       <div>
         <p>Name: {name}</p>
         <p>Speed: {speed}</p>
-        <p>Rockets: {hasRockets ? "Yes" : "No" }</p>
-        <ul>
-          {colors.map((color, index) => <li key={index}>{color}</li>)}
-        </ul>
+        <p>Rockets: {hasRockets}</p>
+        <p>Colors: {colors}</p>
       </div>
     )
   }
