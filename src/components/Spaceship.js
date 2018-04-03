@@ -8,10 +8,10 @@ export default class Spaceship extends React.Component{
       <div>
         <h1>Spaceship Name: {name}</h1>
           <p>Speed: {speed}</p>
-          <p>Rockets: {hasRockets ? "Yes" : "No"}
+          <p>Rockets: {hasRockets ? "Yes" : "No"}</p>
           <p>Colors:</p>
           <ul>
-            {colors.map(color,index) => <li key={index}>{color}</li>}
+            {colors.map((color,index) => <li key={index}>{color}</li>)}
           </ul>
       </div>
     )
